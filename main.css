@@ -1,0 +1,17 @@
+.size {
+    border: 5px solid;
+    width:200px;
+    height:200px;  
+  }
+  .block1 { display:inline-block;
+  }
+  .block2 { display:inline-block;
+  }
+  .block3 { display:inline-block;
+  }
+  .block4 { display:inline-block;
+  }
+  .block5 { display:inline-block;
+  }
+  .block6 { display:inline-block;
+  }
