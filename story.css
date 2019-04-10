@@ -1,0 +1,10 @@
+.size {
+    border: 5px solid;
+    width: 1000px;
+    height:400px;  
+  }
+  
+  .block1 { 
+      display:inline-block;
+    background-color: #84d3c2;
+  }
