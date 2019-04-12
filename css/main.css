@@ -1,0 +1,11 @@
+.size {
+    border: 5px solid;
+    width:32%;
+    height:95vh;  
+  }
+  .block1 { display:inline-block;
+  }
+  .block2 { display:inline-block;
+  }
+  .block3 { display:inline-block;
+  }
