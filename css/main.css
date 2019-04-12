@@ -9,3 +9,8 @@
   }
   .block3 { display:inline-block;
   }
+
+  .lock {
+    width: 300px;
+    height:200px;
+  }
