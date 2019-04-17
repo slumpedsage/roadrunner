@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>ROAD RUNNER</head>
+<head>
+    <title>ROAD RUNNER</title>
+</head>
     <body>
         <h1>Road Runner</h1>
 
@@ -10,4 +12,12 @@
         
         <h4>Created By Makai and Sage</h4>
     </body>
+    <script type="text/javascript">
+        function handleKeyPress(event) {
+            if (event.key === ' ') {
+                window.location = 'story.html'
+            }
+        }
+        document.onkeydown = handleKeyPress
+    </script>
 </html>
