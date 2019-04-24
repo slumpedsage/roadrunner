@@ -46,7 +46,7 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-    this.load.image('sky', '/assets/sky.png');
+    this.load.image('sky', '/assets/space.jpg');
     this.load.image('ground', '/assets/platform.png');
     this.load.image('star', '/assets/star.png');
     this.load.image('bomb', '/assets/bomb.png');
@@ -140,13 +140,13 @@ function update ()
 
     if (cursors.left.isDown)
     {
-        player.setVelocityX(-300);
+        player.setVelocityX(-160);
 
         player.anims.play('left', true);
     }
     else if (cursors.right.isDown)
     {
-        player.setVelocityX(300);
+        player.setVelocityX(160);
 
         player.anims.play('right', true);
     }
@@ -159,7 +159,7 @@ function update ()
 
     if (cursors.up.isDown && player.body.touching.down)
     {
-        player.setVelocityY(-320);
+        player.setVelocityY(-330);
     }
 }
 
@@ -176,7 +176,7 @@ function collectStar (player, star)
         //  A new batch of stars to collect
         stars.children.iterate(function (child) {
 
-           // child.enableBody(true, child.x, 0, true, true);
+            child.enableBody(true, child.x, 0, true, true);
 
         });
 
@@ -195,7 +195,7 @@ function hitBomb (player, bomb)
 {
     this.physics.pause();
 
-    player.setTint(0x48f442);
+    player.setTint(0xff0000);
 
     player.anims.play('turn');
 
