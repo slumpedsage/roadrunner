@@ -6,7 +6,13 @@
 
 }
 body {
-    background-image: url("https://hdqwalls.com/download/synthwave-future-scifi-5k-yn-2560x1440.jpg"); 
+    min-height: 100vh;
+    background-image: url(https://hdqwalls.com/download/synthwave-future-scifi-5k-yn-2560x1440.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-color: black;
+    background-position-x: center;
 }
 h1 {
     color: #ffffff
